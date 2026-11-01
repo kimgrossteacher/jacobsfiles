@@ -1,8 +1,8 @@
 public class objectWrapper {
     public static void main(String[] args) {
-        CustomObject game1 = new CustomObject("Minecraft", "PC", 45);
-        CustomObject game2 = new CustomObject("Zelda: Breath of the Wild", "Nintendo Switch", 70);
-        CustomObject game3 = new CustomObject("Halo Reach", "Xbox", 120);
+        Game game1 = new Game("Minecraft", "PC", 45);
+        Game game2 = new Game("Zelda: Breath of the Wild", "Nintendo Switch", 70);
+        Game game3 = new Game("Halo Reach", "Xbox", 120);
 
         System.out.println("--- Initial Game Status ---");
         game1.displayInfo();

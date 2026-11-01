@@ -1,10 +1,10 @@
-public class CustomObject {
+public class Game  {
 
     private String title;
     private String platform;
     private int hoursPlayed;
 
-    public CustomObject(String title, String platform, int hoursPlayed) {
+    public Game(String title, String platform, int hoursPlayed) {
         this.title = title;
         this.platform = platform;
         this.hoursPlayed = hoursPlayed;
